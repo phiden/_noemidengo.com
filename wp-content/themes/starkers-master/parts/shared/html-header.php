@@ -12,5 +12,7 @@
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 		<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/img/favicon.ico"/>
 		<?php wp_head(); ?>
+		
+		<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,500' rel='stylesheet' type='text/css'>
 	</head>
 	<body <?php body_class(); ?>>
